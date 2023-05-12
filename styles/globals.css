@@ -1,4 +1,22 @@
-@import "./colors.css";
+:root {
+  --bcgColor: #1e1e1e;
+  --fontsColor: #f1f1f1;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("./fonts/HelveticaNeueLTProRoman.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Titillium Bold";
+  src: url("./fonts/Titillium-Bold.otf");
+}
+
+@font-face {
+  font-family: "Titillium Light";
+  src: url("./fonts/Titillium-Light.otf");
+}
 
 body,
 h1,
@@ -12,9 +30,12 @@ ul {
 
 body {
   box-sizing: border-box;
-  background-color: var(--bcg);
-  /* //   font-family: var(--main-text);
-//   font-size: 18px;
-//   color: var(--text);
-//   font-weight: 200; */
+  background-color: var(--bcgColor);
+  font-size: 16px;
+  font-family: "Helvetica";
 }
+
+ul {
+  list-style: none;
+}
+

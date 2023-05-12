@@ -1,4 +1,69 @@
 .home {
-  background-image: url("../public/bcg.png");
+  background-image: url("../public/bcg.webp");
   height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  max-width: 216px;
+  margin: 0 auto;
+  @media (min-width: 1024px) {
+    max-width: 250px;
+  }
+}
+
+.img {
+  @media (min-width: 1024px) {
+    width: 250px;
+    height: 100%;
+  }
+}
+
+.container__more {
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 1.5rem 1.5rem;
+}
+
+.heading {
+  left: -40px;
+  position: absolute;
+  top: 0;
+  line-height: 0;
+  @media (min-width: 768px) {
+    left: -90px;
+  }
+  @media (min-width: 1024px) {
+    left: -180px;
+  }
+}
+
+.subheading {
+  position: absolute;
+  bottom: -24px;
+  right: -48px;
+  max-width: 223px;
+  @media (min-width: 768px) {
+    right: -142px;
+  }
+  @media (min-width: 1024px) {
+    max-width: 500px;
+    bottom: -60px;
+    right: -300px;
+  }
+  @media (min-width: 1440px) {
+    right: -350px;
+  }
+}
+
+.works {
+  margin-left: 1rem;
 }
