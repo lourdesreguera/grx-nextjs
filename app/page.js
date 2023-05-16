@@ -16,14 +16,20 @@ export default function Home() {
       <Nav />
       <div className={home.container}>
         <h1 className={`${fonts.heading__home} ${home.heading}`}>GRX</h1>
-        <Image src={Miguel} width={216} height={323} alt="Miguel Muñoz Gordo" className={home.img} />
+        <Image
+          src={Miguel}
+          width={216}
+          height={323}
+          alt="Miguel Muñoz Gordo"
+          className={home.img}
+        />
         <h2 className={`${fonts.subheading__home} ${home.subheading}`}>
           Metal y madera
         </h2>
       </div>
       <div className={home.container__more}>
-        <Link href='/gallery'>
-          <Image src={bigArrow} width={22} height={28} />
+        <Link href="/gallery">
+          <Image src={bigArrow} width={22} height={28} alt="View latest work" className={home.arrow}/>
         </Link>
         <p className={`${fonts.nav} ${home.works}`}>Últimos trabajos</p>
       </div>

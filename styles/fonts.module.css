@@ -16,6 +16,16 @@
   }
 }
 
+.heading__gallery {
+  font-size: 1.5rem;
+  color: var(--fontsColor);
+  font-family: "Titillium Bold";
+  text-align: center;
+  @media (min-width: 1024px) {
+    font-size: 2rem;
+  }
+}
+
 .subheading__home {
   font-size: 3.5rem;
   color: var(--fontsColor);
