@@ -23,7 +23,7 @@ export default function Home() {
           alt="Miguel Muñoz Gordo"
           className={home.img}
         />
-        <h2 className={`${fonts.subheading__home} ${home.subheading}`}>
+        <h2 className={`${fonts.subheading} ${fonts.subheading__home} ${home.subheading}`}>
           Metal y madera
         </h2>
       </div>

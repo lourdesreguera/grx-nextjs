@@ -1,22 +1,30 @@
-'use client'
-import Masonry from "react-masonry-css";
-import gallery from '../../styles/gallery.module.css'
+// styles
+import gallery from "../../styles/gallery.module.css";
 
-export default function MasonryLayout({ children }) {
-  const breakpointColumnsObj = {
-    default: 4,
-    1100: 5,
-    700: 2,
-    500: 1,
-  };
+// custom
+import img1 from "../../public/photos/1.png";
+import img2 from "../../public/photos/2.png";
+import img3 from "../../public/photos/3.png";
+import img4 from "../../public/photos/4.png";
+import img5 from "../../public/photos/5.png";
+import MasonryItem from "./masonryItem";
+
+export default function MasonryLayout() {
+  const items = [
+    { id: 1, name: img1, width: "one" },
+    { id: 2, name: img2, width: "two" },
+    { id: 3, name: img3, width: "three" },
+    { id: 4, name: img4, width: "four" },
+    { id: 5, name: img5, width: "five" },
+  ];
 
   return (
-    <Masonry
-      breakpointCols={breakpointColumnsObj}
-      className={gallery.grid}
-      columnClassName="my-masonry-grid_column"
-    >
-      {children}
-    </Masonry>
+    <section className={gallery.grid}>
+      {items.map(({ id, name, width }) => (
+        <div className={gallery[width]} key={id}>
+          <MasonryItem src={name} />
+        </div>
+      ))}
+    </section>
   );
 }

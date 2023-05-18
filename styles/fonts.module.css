@@ -21,6 +21,7 @@
   color: var(--fontsColor);
   font-family: "Titillium Bold";
   text-align: center;
+  padding: 2.5rem 2rem;
   @media (min-width: 1024px) {
     font-size: 2rem;
   }
@@ -28,12 +29,30 @@
 
 .subheading__home {
   font-size: 3.5rem;
-  color: var(--fontsColor);
-  font-family: "Titillium Bold";
-  text-transform: uppercase;
   line-height: 0.85;
   @media (min-width: 1024px) {
     font-size: 6rem;
     line-height: 1;
   }
+}
+
+.subheading {
+  color: var(--fontsColor);
+  font-family: "Titillium Bold";
+  text-transform: uppercase;
+}
+
+.subheading__detailGallery {
+  font-size: 3rem;
+  @media (min-width: 1024px) {
+    font-size: 6.5rem;
+    line-height: 1;
+  }
+}
+
+.description__gallery {
+  font-family: "Helvetica";
+  color: var(--fontsColor);
+  font-size: 0.8rem;
+  padding-top: 1rem;
 }
