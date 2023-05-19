@@ -2,10 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 // styles
-import gallery from "../../styles/gallery.module.css";
+import gallery from "../../../styles/gallery.module.css";
 
 // custom
-import arrow from "../../public/viewMoreArrow.png";
+import arrow from "../../../public/viewMoreArrow.png";
 
 export default function MasonryItem({src}) {
   return (

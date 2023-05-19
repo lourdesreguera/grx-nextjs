@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (min-width: 1024px) {
+        margin: 7rem 0 3rem 0;
+
+    }
+}
+
+.link {
+    padding: 0 0.75rem;
+    display: flex;
+  text-decoration: none;
+
+}
+
+.name {
+    display: none;
+    @media (min-width: 1024px) {
+        display: block;
+        margin-left: 0.5rem
+    }
+}

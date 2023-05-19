@@ -44,9 +44,12 @@
 
 .subheading__detailGallery {
   font-size: 3rem;
+  line-height: 1;
   @media (min-width: 1024px) {
+    font-size: 5rem;
+  }
+  @media (min-width: 1440px) {
     font-size: 6.5rem;
-    line-height: 1;
   }
 }
 
@@ -55,4 +58,10 @@
   color: var(--fontsColor);
   font-size: 0.8rem;
   padding-top: 1rem;
+}
+
+.socialLinks {
+  font-family: "Titillium Light";
+  font-size: 0.8rem;
+  color: var(--fontsColor);
 }
