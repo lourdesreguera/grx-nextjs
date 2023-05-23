@@ -5,11 +5,51 @@ import img10 from "../../../public/photos/10.png";
 import img11 from "../../../public/photos/11.png";
 
 const items = [
-    { id: 7, name: img7, width: "seven" },
-    { id: 8, name: img8, width: "eight" },
-    { id: 9, name: img9, width: "nine" },
-    { id: 10, name: img10, width: "ten" },
-    { id: 11, name: img11, width: "eleven" },
-  ];
+  {
+    id: 7,
+    src: img7,
+    grid: "seven",
+    title: "Nombre",
+    shortDescription: "Descripción breve del producto",
+    longDescription:
+      "Descripción un poco más larga del producto para resaltar detalles",
+  },
+  {
+    id: 8,
+    src: img8,
+    grid: "eight",
+    title: "Nombre",
+    shortDescription: "Descripción breve del producto",
+    longDescription:
+      "Descripción un poco más larga del producto para resaltar detalles",
+  },
+  {
+    id: 9,
+    src: img9,
+    grid: "nine",
+    title: "Nombre",
+    shortDescription: "Descripción breve del producto",
+    longDescription:
+      "Descripción un poco más larga del producto para resaltar detalles",
+  },
+  {
+    id: 10,
+    src: img10,
+    grid: "ten",
+    title: "Nombre",
+    shortDescription: "Descripción breve del producto",
+    longDescription:
+      "Descripción un poco más larga del producto para resaltar detalles",
+  },
+  {
+    id: 11,
+    src: img11,
+    grid: "eleven",
+    title: "Nombre",
+    shortDescription: "Descripción breve del producto",
+    longDescription:
+      "Descripción un poco más larga del producto para resaltar detalles",
+  },
+];
 
-export default items
+export default items;

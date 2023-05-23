@@ -65,3 +65,27 @@
   font-size: 0.8rem;
   color: var(--fontsColor);
 }
+
+.heading__product {
+  font-size: 2rem;
+  color: var(--fontsColor);
+  font-family: "Titillium Bold";
+  @media (min-width: 1024px) {
+    font-size: 4rem;
+  }
+}
+
+.subheading__product {
+  font-family: "Titillium Light";
+  font-size: 2rem;
+  color: var(--fontsColor);
+  @media (min-width: 1024px) {
+    font-size: 4rem;
+  }
+}
+
+.description__product {
+  font-family: "Titillium Light";
+  font-size: 1.5rem;
+  color: var(--fontsColor);
+}

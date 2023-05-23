@@ -8,9 +8,9 @@ import MasonryItem from "./masonryItem";
 export default function MasonryLayout({ items }) {
   return (
     <section className={gallery.grid}>
-      {items.map(({ id, name, width }) => (
-        <div className={gallery[width]} key={id}>
-          <MasonryItem src={name} />
+      {items.map(({ id, src, grid }) => (
+        <div className={gallery[grid]} key={id}>
+          <MasonryItem src={src} id={id} />
           <p className={fonts.description__gallery}>Descripción breve del producto</p>
         </div>
       ))}
