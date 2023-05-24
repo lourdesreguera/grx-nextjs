@@ -12,11 +12,12 @@ export default function Product({ params }) {
     return item.id == params.id;
   });
   const { id, src, title, shortDescription, longDescription } = product;
-
+  
   return (
     <section
       className={productStyle.container}
       style={{ backgroundImage: `url(${src.src})` }}
+      transition-style="in:custom:circle-swoop"
     >
       <div className={productStyle.container__headings}>
         <h1 className={fonts.heading__product}>{title}</h1>

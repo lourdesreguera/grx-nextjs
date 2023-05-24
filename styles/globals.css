@@ -1,3 +1,5 @@
+@import "transition-style";
+
 :root {
   --bcgColor: #1e1e1e;
   --fontsColor: #f1f1f1;
@@ -37,4 +39,18 @@ body {
 
 ul {
   list-style: none;
+}
+
+@keyframes in-circle-swoop {
+  from {
+    clip-path: var(--circle-top-left-out);
+  }
+  to {
+    clip-path: var(--circle-bottom-right-in);
+  }
+}
+
+[transition-style="in:custom:circle-swoop"] {
+  --transition__duration: 5s;
+  animation-name: in-circle-swoop;
 }
