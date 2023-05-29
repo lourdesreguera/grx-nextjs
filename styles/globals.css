@@ -8,16 +8,19 @@
 @font-face {
   font-family: "Helvetica";
   src: url("./fonts/HelveticaNeueLTProRoman.otf") format("otf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Titillium Bold";
   src: url("./fonts/Titillium-Bold.otf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Titillium Light";
   src: url("./fonts/Titillium-Light.otf");
+  font-display: swap;
 }
 
 body,

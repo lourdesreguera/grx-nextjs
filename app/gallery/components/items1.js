@@ -1,31 +1,30 @@
-import img1 from "../../../public/photos/1.png";
-import img2 from "../../../public/photos/2.png";
-import img3 from "../../../public/photos/3.png";
-import img4 from "../../../public/photos/4.png";
-import img5 from "../../../public/photos/5.png";
-
 const items = [
   {
     id: 1,
-    src: img1,
+    src: 'https://res.cloudinary.com/louregbri/image/upload/q_50/v1685370779/Grx/1_jsz6ds.png',
+    srcBigImage: 'https://res.cloudinary.com/louregbri/image/upload/v1685370779/Grx/1_jsz6ds.webp',
     grid: "one",
     title: "Nombre",
     shortDescription: "Descripción breve del producto",
     longDescription:
       "Descripción un poco más larga del producto para resaltar detalles",
+    whiteBcg: false,
   },
   {
     id: 2,
-    src: img2,
+    src: 'https://res.cloudinary.com/louregbri/image/upload/q_50/v1685370907/Grx/2_hyetxf.png',
+    srcBigImage: 'https://res.cloudinary.com/louregbri/image/upload/v1685370907/Grx/2_hyetxf.png',
     grid: "two",
     title: "Nombre",
     shortDescription: "Descripción breve del producto",
     longDescription:
       "Descripción un poco más larga del producto para resaltar detalles",
+    whiteBcg: true,
   },
   {
     id: 3,
-    src: img3,
+    src: 'https://res.cloudinary.com/louregbri/image/upload/q_50/v1685371169/Grx/3_qkvvfo.png',
+    srcBigImage: 'https://res.cloudinary.com/louregbri/image/upload/v1685371169/Grx/3_qkvvfo.png',
     grid: "three",
     title: "Nombre",
     shortDescription: "Descripción breve del producto",
@@ -34,7 +33,8 @@ const items = [
   },
   {
     id: 4,
-    src: img4,
+    src: 'https://res.cloudinary.com/louregbri/image/upload/q_50/v1685371169/Grx/4_oyv6rr.png',
+    srcBigImage: 'https://res.cloudinary.com/louregbri/image/upload/v1685371169/Grx/4_oyv6rr.png',
     grid: "four",
     title: "Nombre",
     shortDescription: "Descripción breve del producto",
@@ -43,7 +43,8 @@ const items = [
   },
   {
     id: 5,
-    src: img5,
+    src: 'https://res.cloudinary.com/louregbri/image/upload/q_50/v1685371186/Grx/5_tmqdws.png',
+    srcBigImage: 'https://res.cloudinary.com/louregbri/image/upload/v1685371186/Grx/5_tmqdws.png',
     grid: "five",
     title: "Nombre",
     shortDescription: "Descripción breve del producto",

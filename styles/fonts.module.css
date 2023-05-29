@@ -75,6 +75,15 @@
   }
 }
 
+.heading__product__dark {
+  font-size: 2rem;
+  color: var(--bcgColor);
+  font-family: "Titillium Bold";
+  @media (min-width: 1024px) {
+    font-size: 4rem;
+  }
+}
+
 .subheading__product {
   font-family: "Titillium Light";
   font-size: 2rem;
@@ -84,8 +93,23 @@
   }
 }
 
+.subheading__product__dark {
+  font-family: "Titillium Light";
+  font-size: 2rem;
+  color: var(--bcgColor);
+  @media (min-width: 1024px) {
+    font-size: 4rem;
+  }
+}
+
 .description__product {
   font-family: "Titillium Light";
   font-size: 1.5rem;
   color: var(--fontsColor);
+}
+
+.description__product__dark {
+  font-family: "Titillium Light";
+  font-size: 1.5rem;
+  color: var(--bcgColor);
 }
